@@ -187,3 +187,21 @@ footer {
         min-height: 65vh;
     }
 }
+/* Extra visual improvements */
+
+.card {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    transition: color 0.3s ease;
+}
+
+::selection {
+    background: #38bdf8;
+    color: #0b1120;
+}
