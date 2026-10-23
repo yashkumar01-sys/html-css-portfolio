@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Design Tokens</title>
+
+    <style>
+        /* Design tokens */
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #0d9488;
+            --background-color: #f1f5f9;
+            --text-color: #334155;
+
+            --small-size: 14px;
+            --normal-size: 18px;
+            --heading-size: 32px;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: Arial, sans-serif;
+            font-size: var(--normal-size);
+            padding: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: var(--heading-size);
+        }
+
+        p {
+            font-size: var(--normal-size);
+        }
+
+        .button {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .note {
+            font-size: var(--small-size);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Design Tokens</h1>
+
+    <p>
+        CSS variables help us manage colours and font sizes easily.
+    </p>
+
+    <button class="button">Learn More</button>
+
+    <p class="note">This is small text using a CSS variable.</p>
+</body>
+</html>

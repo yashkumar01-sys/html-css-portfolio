@@ -1,0 +1,9 @@
+
+Design Choices
+
+1. I used navy blue for headings to give the website a professional look.
+2. I used a light background to make the pages easy to read.
+3. I used Arial for clear and readable text.
+4. I used consistent colours, spacing, and headings across the pages.
+5. I added navigation links to move between different pages.
+6. I used CSS variables to manage colours and font sizes easily.
